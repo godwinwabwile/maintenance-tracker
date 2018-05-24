@@ -60,3 +60,10 @@
 		text-decoration: none;
 		text-align: center;
 	}
+	nav ul li a:hover, nav ul li.active a{
+		background: #878E63;
+		color: #f1f0d1;
+	}
+	#clearfix{
+		clear: both;
+	}
