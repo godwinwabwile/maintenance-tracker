@@ -38,3 +38,25 @@
 		padding: 2%;
 		font-size: 13px;
 	}
+	nav{
+		width: 99%;
+	}
+	nav ul{
+		list-style: none;
+		padding-left: 50px;
+	}
+	nav ul li{
+		border: 1px solid #878E63;
+		float: left;
+		width: 48%;
+	}
+	nav ul li a{
+		background: #f1f0d1;
+		padding: 5% 12%;
+		display: block;
+		font-weight: bold;
+		font-size: 18px;
+		color: #878E63;
+		text-decoration: none;
+		text-align: center;
+	}
