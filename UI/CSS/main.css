@@ -25,3 +25,16 @@
 		width: 98%;
 		background: #FEFBE8;
 	}
+	#topbar{
+		width: 100%;
+		height: auto;
+		background: #838E63;
+		
+		overflow: hidden;
+	}
+	#topbar p{
+		text-align: right;
+		color: #f1f0d1;
+		padding: 2%;
+		font-size: 13px;
+	}
