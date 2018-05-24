@@ -23,9 +23,9 @@
 	<nav>
 		<ul>
 			<li>
-			<a href="#" onclick="document.getElementById('signup').style.display='block'">log in</a>	
+			<a href="#" onclick="document.getElementById('login').style.display='block'">log in</a>	
 			</li>
-			<li><a href="#">sign up</a> </li>
+			<li><a href="#" onclick="document.getElementById('signup').style.display='block'">sign up</a> </li>
 		</ul>
 		<div id="clearfix"></div>
 	</nav>
@@ -72,6 +72,31 @@
   </form>
 </div>
 <!--========================End of signup form=========================-->
+<!--========================login form=========================-->
+<div id="login" class="modal">
+  <form class="modal-content animate" action="user.html">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/user.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="clearfix">
+        <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Login</button>
+      </div>
+  </form>
+</div>
+<!--========================End of loginform=========================-->
 <!--========================about column=========================-->
 
 	<section class="left-col">	
